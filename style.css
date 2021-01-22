@@ -57,3 +57,95 @@ body {
 .card.flip {
     transform: rotateY(180deg);
 }
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 360px) {
+
+    body { overflow-x: hidden; }
+
+    .cards { /* texto acima do card*/
+        margin: 0;
+        padding: 0;
+    }
+
+    .memory-game{ /*container que engloba todos os cards*/
+        max-width: 360px;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    .card {  /*cada card*/
+        width: 30%;
+        height: 30%;
+    }
+}
+
+
+@media (max-width: 441px) {
+    body { overflow-x: hidden; }
+
+    .cards { /* texto acima do card*/
+        margin: 0;
+        padding: 0;
+    }
+
+    .memory-game{ /*container que engloba todos os cards*/
+        max-width: 360px;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    .card {  /*cada card*/
+        width: 30%;
+        height: 30%;
+    }
+}
+
+@media (max-width: 540px) { 
+    body { overflow-x: hidden;}
+
+    .cards { /* texto acima do card*/
+        margin: 0;
+        padding: 0;
+    }
+
+    .memory-game{ /*container que engloba todos os cards*/
+        max-width: 530px;
+        align-items: center;
+        margin: 5px;
+    }
+
+   
+}
+
+@media (max-width: 280px) {
+    body { overflow-x: hidden; }
+
+    .cards { /* texto acima do card*/
+        margin-top: 10px;
+        width: 280px;
+    }
+/*
+    <div class="cards mx-auto" style="width: 25rem;">
+    <div class="card-body"  align="center">
+      <h5 class="card-title">Bem vindo ao jogo da memoria!</h5>
+      <h6 class="card-subtitle mb-2 text-muted">pronto para iniciar?</h6>
+      <p class="card-text">Para jogar clique nas cartas e encontre o seu par.</p>
+
+      <a href="#" id="movimento" class="card-link">Movimentos: </a> <br/>
+      <button class="btn btn-outline-dark" id="btnReset" onclick="resetCards()">Jogar novamente</button>
+    </div>
+  </div> */
+
+    .memory-game{ /*container que engloba todos os cards*/
+        max-width: 355px;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    .card {  /*cada card*/
+        width: 30%;
+        height: 30%;
+    }
+}
